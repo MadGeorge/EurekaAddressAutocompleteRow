@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A7F3341E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */; };
+		56DD285E1E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */; };
+		56DD285F1E28F0870067A0F5 /* MapKitSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */; };
+		56DD28601E28F0870067A0F5 /* AddressRowAndSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */; };
+		56DD28611E28F0870067A0F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD285D1E28F0870067A0F5 /* ViewController.swift */; };
+		56EC5F6D1E2800B100CEFAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */; };
+		56EC5F721E2800B100CEFAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EC5F701E2800B100CEFAA8 /* Main.storyboard */; };
+		56EC5F741E2800B100CEFAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EC5F731E2800B100CEFAA8 /* Assets.xcassets */; };
+		56EC5F771E2800B100CEFAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EC5F751E2800B100CEFAA8 /* LaunchScreen.storyboard */; };
+		56EC5F821E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC5F811E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.swift */; };
+		868B5639DC789831C307562B /* Pods_EurekaAddressAutocompleteRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1650714791DB57FECD93BB /* Pods_EurekaAddressAutocompleteRow.framework */; };
+		A952D16562EADD9511C43C5A /* Pods_EurekaAddressAutocompleteRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3D74A47114494C8A88D7A0 /* Pods_EurekaAddressAutocompleteRowTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56EC5F7E1E2800B100CEFAA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EC5F611E2800B100CEFAA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EC5F681E2800B100CEFAA8;
+			remoteInfo = EurekaAddressAutocompleteRow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F553EF29C705EED0B51320 /* Pods-EurekaAddressAutocompleteRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRow.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow.release.xcconfig"; sourceTree = "<group>"; };
+		1D8943C997DC7694C152C897 /* Pods-EurekaAddressAutocompleteRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow.debug.xcconfig"; sourceTree = "<group>"; };
+		56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareSuggestCompletionManager.swift; sourceTree = "<group>"; };
+		56A7F3351E295D0D00C2FEF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleGeocodingAddressManager.swift; sourceTree = "<group>"; };
+		56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitSearchManager.swift; sourceTree = "<group>"; };
+		56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRowAndSupport.swift; sourceTree = "<group>"; };
+		56DD285D1E28F0870067A0F5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56EC5F691E2800B100CEFAA8 /* EurekaAddressAutocompleteRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaAddressAutocompleteRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56EC5F711E2800B100CEFAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56EC5F731E2800B100CEFAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56EC5F761E2800B100CEFAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56EC5F781E2800B100CEFAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EC5F7D1E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaAddressAutocompleteRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EC5F811E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaAddressAutocompleteRowTests.swift; sourceTree = "<group>"; };
+		56EC5F831E2800B100CEFAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C710D8C19DD5CC8A884B6C23 /* Pods-EurekaAddressAutocompleteRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRowTests/Pods-EurekaAddressAutocompleteRowTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC1650714791DB57FECD93BB /* Pods_EurekaAddressAutocompleteRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaAddressAutocompleteRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3D74A47114494C8A88D7A0 /* Pods_EurekaAddressAutocompleteRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaAddressAutocompleteRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47D9772ADCBAE37D44CECA /* Pods-EurekaAddressAutocompleteRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRowTests/Pods-EurekaAddressAutocompleteRowTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EC5F661E2800B100CEFAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B5639DC789831C307562B /* Pods_EurekaAddressAutocompleteRow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EC5F7A1E2800B100CEFAA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A952D16562EADD9511C43C5A /* Pods_EurekaAddressAutocompleteRowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F51390F952021C6B52A650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1650714791DB57FECD93BB /* Pods_EurekaAddressAutocompleteRow.framework */,
+				ED3D74A47114494C8A88D7A0 /* Pods_EurekaAddressAutocompleteRowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56DD28571E28F0870067A0F5 /* ApiManagers */ = {
+			isa = PBXGroup;
+			children = (
+				56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */,
+				56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */,
+				56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */,
+			);
+			path = ApiManagers;
+			sourceTree = "<group>";
+		};
+		56DD285A1E28F0870067A0F5 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		56DD285C1E28F0870067A0F5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				56DD285D1E28F0870067A0F5 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		56EC5F601E2800B100CEFAA8 = {
+			isa = PBXGroup;
+			children = (
+				56EC5F6B1E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */,
+				56EC5F801E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests */,
+				56EC5F6A1E2800B100CEFAA8 /* Products */,
+				FDD475F07615057C9FD1C2FF /* Pods */,
+				04F51390F952021C6B52A650 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56EC5F6A1E2800B100CEFAA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EC5F691E2800B100CEFAA8 /* EurekaAddressAutocompleteRow.app */,
+				56EC5F7D1E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EC5F6B1E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */ = {
+			isa = PBXGroup;
+			children = (
+				56DD28571E28F0870067A0F5 /* ApiManagers */,
+				56DD285A1E28F0870067A0F5 /* Row */,
+				56DD285C1E28F0870067A0F5 /* Screens */,
+				56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */,
+				56EC5F701E2800B100CEFAA8 /* Main.storyboard */,
+				56EC5F731E2800B100CEFAA8 /* Assets.xcassets */,
+				56EC5F751E2800B100CEFAA8 /* LaunchScreen.storyboard */,
+				56EC5F781E2800B100CEFAA8 /* Info.plist */,
+				56A7F3351E295D0D00C2FEF2 /* README.md */,
+			);
+			path = EurekaAddressAutocompleteRow;
+			sourceTree = "<group>";
+		};
+		56EC5F801E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EC5F811E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.swift */,
+				56EC5F831E2800B100CEFAA8 /* Info.plist */,
+			);
+			path = EurekaAddressAutocompleteRowTests;
+			sourceTree = "<group>";
+		};
+		FDD475F07615057C9FD1C2FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D8943C997DC7694C152C897 /* Pods-EurekaAddressAutocompleteRow.debug.xcconfig */,
+				08F553EF29C705EED0B51320 /* Pods-EurekaAddressAutocompleteRow.release.xcconfig */,
+				EF47D9772ADCBAE37D44CECA /* Pods-EurekaAddressAutocompleteRowTests.debug.xcconfig */,
+				C710D8C19DD5CC8A884B6C23 /* Pods-EurekaAddressAutocompleteRowTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EC5F681E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EC5F861E2800B100CEFAA8 /* Build configuration list for PBXNativeTarget "EurekaAddressAutocompleteRow" */;
+			buildPhases = (
+				30E9831100546058FE92286B /* [CP] Check Pods Manifest.lock */,
+				56EC5F651E2800B100CEFAA8 /* Sources */,
+				56EC5F661E2800B100CEFAA8 /* Frameworks */,
+				56EC5F671E2800B100CEFAA8 /* Resources */,
+				DB884A4086286CFFB70A1A6C /* [CP] Embed Pods Frameworks */,
+				ECFBC2B358AC3D684F475892 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaAddressAutocompleteRow;
+			productName = EurekaAddressAutocompleteRow;
+			productReference = 56EC5F691E2800B100CEFAA8 /* EurekaAddressAutocompleteRow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56EC5F7C1E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EC5F891E2800B100CEFAA8 /* Build configuration list for PBXNativeTarget "EurekaAddressAutocompleteRowTests" */;
+			buildPhases = (
+				498171662C452A3ABEEC3B3D /* [CP] Check Pods Manifest.lock */,
+				56EC5F791E2800B100CEFAA8 /* Sources */,
+				56EC5F7A1E2800B100CEFAA8 /* Frameworks */,
+				56EC5F7B1E2800B100CEFAA8 /* Resources */,
+				4CD4D9C5F98A312299F7599B /* [CP] Embed Pods Frameworks */,
+				70C3DEEE57CDDF7B7A9E7B0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EC5F7F1E2800B100CEFAA8 /* PBXTargetDependency */,
+			);
+			name = EurekaAddressAutocompleteRowTests;
+			productName = EurekaAddressAutocompleteRowTests;
+			productReference = 56EC5F7D1E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EC5F611E2800B100CEFAA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MadGeorge;
+				TargetAttributes = {
+					56EC5F681E2800B100CEFAA8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N455BJCT3S;
+						ProvisioningStyle = Automatic;
+					};
+					56EC5F7C1E2800B100CEFAA8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N455BJCT3S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56EC5F681E2800B100CEFAA8;
+					};
+				};
+			};
+			buildConfigurationList = 56EC5F641E2800B100CEFAA8 /* Build configuration list for PBXProject "EurekaAddressAutocompleteRow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56EC5F601E2800B100CEFAA8;
+			productRefGroup = 56EC5F6A1E2800B100CEFAA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EC5F681E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */,
+				56EC5F7C1E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EC5F671E2800B100CEFAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EC5F771E2800B100CEFAA8 /* LaunchScreen.storyboard in Resources */,
+				56EC5F741E2800B100CEFAA8 /* Assets.xcassets in Resources */,
+				56EC5F721E2800B100CEFAA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EC5F7B1E2800B100CEFAA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E9831100546058FE92286B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		498171662C452A3ABEEC3B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CD4D9C5F98A312299F7599B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaAddressAutocompleteRowTests/Pods-EurekaAddressAutocompleteRowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C3DEEE57CDDF7B7A9E7B0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaAddressAutocompleteRowTests/Pods-EurekaAddressAutocompleteRowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB884A4086286CFFB70A1A6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFBC2B358AC3D684F475892 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EC5F651E2800B100CEFAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DD28611E28F0870067A0F5 /* ViewController.swift in Sources */,
+				56EC5F6D1E2800B100CEFAA8 /* AppDelegate.swift in Sources */,
+				56DD28601E28F0870067A0F5 /* AddressRowAndSupport.swift in Sources */,
+				56DD285E1E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift in Sources */,
+				56DD285F1E28F0870067A0F5 /* MapKitSearchManager.swift in Sources */,
+				56A7F3341E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EC5F791E2800B100CEFAA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EC5F821E2800B100CEFAA8 /* EurekaAddressAutocompleteRowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EC5F7F1E2800B100CEFAA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EC5F681E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */;
+			targetProxy = 56EC5F7E1E2800B100CEFAA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56EC5F701E2800B100CEFAA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EC5F711E2800B100CEFAA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56EC5F751E2800B100CEFAA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EC5F761E2800B100CEFAA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56EC5F841E2800B100CEFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56EC5F851E2800B100CEFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56EC5F871E2800B100CEFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8943C997DC7694C152C897 /* Pods-EurekaAddressAutocompleteRow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N455BJCT3S;
+				INFOPLIST_FILE = EurekaAddressAutocompleteRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadGeorge.EurekaAddressAutocompleteRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56EC5F881E2800B100CEFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F553EF29C705EED0B51320 /* Pods-EurekaAddressAutocompleteRow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N455BJCT3S;
+				INFOPLIST_FILE = EurekaAddressAutocompleteRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadGeorge.EurekaAddressAutocompleteRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		56EC5F8A1E2800B100CEFAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF47D9772ADCBAE37D44CECA /* Pods-EurekaAddressAutocompleteRowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N455BJCT3S;
+				INFOPLIST_FILE = EurekaAddressAutocompleteRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadGeorge.EurekaAddressAutocompleteRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaAddressAutocompleteRow.app/EurekaAddressAutocompleteRow";
+			};
+			name = Debug;
+		};
+		56EC5F8B1E2800B100CEFAA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C710D8C19DD5CC8A884B6C23 /* Pods-EurekaAddressAutocompleteRowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N455BJCT3S;
+				INFOPLIST_FILE = EurekaAddressAutocompleteRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadGeorge.EurekaAddressAutocompleteRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EurekaAddressAutocompleteRow.app/EurekaAddressAutocompleteRow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EC5F641E2800B100CEFAA8 /* Build configuration list for PBXProject "EurekaAddressAutocompleteRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EC5F841E2800B100CEFAA8 /* Debug */,
+				56EC5F851E2800B100CEFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EC5F861E2800B100CEFAA8 /* Build configuration list for PBXNativeTarget "EurekaAddressAutocompleteRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EC5F871E2800B100CEFAA8 /* Debug */,
+				56EC5F881E2800B100CEFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EC5F891E2800B100CEFAA8 /* Build configuration list for PBXNativeTarget "EurekaAddressAutocompleteRowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EC5F8A1E2800B100CEFAA8 /* Debug */,
+				56EC5F8B1E2800B100CEFAA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56EC5F611E2800B100CEFAA8 /* Project object */;
+}

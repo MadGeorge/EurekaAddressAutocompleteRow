@@ -1,0 +1,18 @@
+PODS:
+  - Eureka (2.0.0-beta.1)
+  - GoogleMaps/Base (2.1.1)
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+
+DEPENDENCIES:
+  - Eureka (~> 2.0.0-beta.1)
+  - GooglePlaces
+
+SPEC CHECKSUMS:
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+
+PODFILE CHECKSUM: cc12c536b504490115ce5a713429bfd850e290f9
+
+COCOAPODS: 1.1.1
