@@ -1,6 +1,6 @@
 # Address autocomplite row for Eureka form buider
 <p align="center">
-<img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/screencast.gif" /> <img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr1.jpg" /> <img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr2.jpg" />  <img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr3.jpg" />  <img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr4.jpg" />  <img width="350" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr5.jpg" />
+<img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/screencast.gif" /> <img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr1.jpg" /> <img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr2.jpg" />  <img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr3.jpg" />  <img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr4.jpg" />  <img width="250" src="https://github.com/MadGeorge/EurekaAddressAutocompliteRow/raw/master/ReadmeResources/scr5.jpg" />
 </p>
 
 ### Description
