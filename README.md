@@ -15,6 +15,8 @@ Testet with iOS 9+, developed with Xcode 8.2.1
 
 ### How to use
 
+Sources located at the `EurekaAddressAutocompleteRow/Sources`
+
 1. Install Eureka with [instructions](https://github.com/xmartlabs/Eureka#installation).
 
 2. Add `AddressRowAndSupport.swift` into project
