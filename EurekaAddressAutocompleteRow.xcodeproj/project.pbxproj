@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56A7F3341E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */; };
-		56DD285E1E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */; };
-		56DD285F1E28F0870067A0F5 /* MapKitSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */; };
-		56DD28601E28F0870067A0F5 /* AddressRowAndSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */; };
+		56A7F3481E2A4E3B00C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3431E2A4E3B00C2FEF2 /* FoursquareSuggestCompletionManager.swift */; };
+		56A7F3491E2A4E3B00C2FEF2 /* GoogleGeocodingAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3441E2A4E3B00C2FEF2 /* GoogleGeocodingAddressManager.swift */; };
+		56A7F34A1E2A4E3B00C2FEF2 /* MapKitSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3451E2A4E3B00C2FEF2 /* MapKitSearchManager.swift */; };
+		56A7F34B1E2A4E3B00C2FEF2 /* AddressRowAndSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7F3471E2A4E3B00C2FEF2 /* AddressRowAndSupport.swift */; };
 		56DD28611E28F0870067A0F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD285D1E28F0870067A0F5 /* ViewController.swift */; };
 		56EC5F6D1E2800B100CEFAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */; };
 		56EC5F721E2800B100CEFAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EC5F701E2800B100CEFAA8 /* Main.storyboard */; };
@@ -34,11 +34,11 @@
 /* Begin PBXFileReference section */
 		08F553EF29C705EED0B51320 /* Pods-EurekaAddressAutocompleteRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRow.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow.release.xcconfig"; sourceTree = "<group>"; };
 		1D8943C997DC7694C152C897 /* Pods-EurekaAddressAutocompleteRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaAddressAutocompleteRow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaAddressAutocompleteRow/Pods-EurekaAddressAutocompleteRow.debug.xcconfig"; sourceTree = "<group>"; };
-		56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareSuggestCompletionManager.swift; sourceTree = "<group>"; };
 		56A7F3351E295D0D00C2FEF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleGeocodingAddressManager.swift; sourceTree = "<group>"; };
-		56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitSearchManager.swift; sourceTree = "<group>"; };
-		56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRowAndSupport.swift; sourceTree = "<group>"; };
+		56A7F3431E2A4E3B00C2FEF2 /* FoursquareSuggestCompletionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareSuggestCompletionManager.swift; sourceTree = "<group>"; };
+		56A7F3441E2A4E3B00C2FEF2 /* GoogleGeocodingAddressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleGeocodingAddressManager.swift; sourceTree = "<group>"; };
+		56A7F3451E2A4E3B00C2FEF2 /* MapKitSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitSearchManager.swift; sourceTree = "<group>"; };
+		56A7F3471E2A4E3B00C2FEF2 /* AddressRowAndSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRowAndSupport.swift; sourceTree = "<group>"; };
 		56DD285D1E28F0870067A0F5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56EC5F691E2800B100CEFAA8 /* EurekaAddressAutocompleteRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaAddressAutocompleteRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,20 +84,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		56DD28571E28F0870067A0F5 /* ApiManagers */ = {
+		56A7F3411E2A4E3B00C2FEF2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				56DD28581E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift */,
-				56DD28591E28F0870067A0F5 /* MapKitSearchManager.swift */,
-				56A7F3331E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift */,
+				56A7F3421E2A4E3B00C2FEF2 /* ApiManagers */,
+				56A7F3461E2A4E3B00C2FEF2 /* Row */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		56A7F3421E2A4E3B00C2FEF2 /* ApiManagers */ = {
+			isa = PBXGroup;
+			children = (
+				56A7F3431E2A4E3B00C2FEF2 /* FoursquareSuggestCompletionManager.swift */,
+				56A7F3441E2A4E3B00C2FEF2 /* GoogleGeocodingAddressManager.swift */,
+				56A7F3451E2A4E3B00C2FEF2 /* MapKitSearchManager.swift */,
 			);
 			path = ApiManagers;
 			sourceTree = "<group>";
 		};
-		56DD285A1E28F0870067A0F5 /* Row */ = {
+		56A7F3461E2A4E3B00C2FEF2 /* Row */ = {
 			isa = PBXGroup;
 			children = (
-				56DD285B1E28F0870067A0F5 /* AddressRowAndSupport.swift */,
+				56A7F3471E2A4E3B00C2FEF2 /* AddressRowAndSupport.swift */,
 			);
 			path = Row;
 			sourceTree = "<group>";
@@ -133,8 +142,7 @@
 		56EC5F6B1E2800B100CEFAA8 /* EurekaAddressAutocompleteRow */ = {
 			isa = PBXGroup;
 			children = (
-				56DD28571E28F0870067A0F5 /* ApiManagers */,
-				56DD285A1E28F0870067A0F5 /* Row */,
+				56A7F3411E2A4E3B00C2FEF2 /* Sources */,
 				56DD285C1E28F0870067A0F5 /* Screens */,
 				56EC5F6C1E2800B100CEFAA8 /* AppDelegate.swift */,
 				56EC5F701E2800B100CEFAA8 /* Main.storyboard */,
@@ -371,11 +379,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56DD28611E28F0870067A0F5 /* ViewController.swift in Sources */,
+				56A7F34B1E2A4E3B00C2FEF2 /* AddressRowAndSupport.swift in Sources */,
 				56EC5F6D1E2800B100CEFAA8 /* AppDelegate.swift in Sources */,
-				56DD28601E28F0870067A0F5 /* AddressRowAndSupport.swift in Sources */,
-				56DD285E1E28F0870067A0F5 /* GoogleGeocodingAddressManager.swift in Sources */,
-				56DD285F1E28F0870067A0F5 /* MapKitSearchManager.swift in Sources */,
-				56A7F3341E29151000C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */,
+				56A7F3481E2A4E3B00C2FEF2 /* FoursquareSuggestCompletionManager.swift in Sources */,
+				56A7F34A1E2A4E3B00C2FEF2 /* MapKitSearchManager.swift in Sources */,
+				56A7F3491E2A4E3B00C2FEF2 /* GoogleGeocodingAddressManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
