@@ -28,7 +28,7 @@ class ViewController: FormViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = L("Address autocomplite row")
+        navigationItem.title = L("Address autocomplete row")
         
         setupForm()
         
